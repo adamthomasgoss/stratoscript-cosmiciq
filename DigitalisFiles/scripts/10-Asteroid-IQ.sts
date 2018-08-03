@@ -7,7 +7,7 @@
 ############################################################
 
 external_viewer action stop
-external_viewer action play filename 07-AsteroidBelt.mp4 coordinate_system viewport scale 1 alpha 0
+external_viewer action play filename 09_AsteroidBelt.avi coordinate_system viewport scale 1 alpha 0
 external_viewer alpha 1 duration 1
 wait duration 12
 external_viewer alpha 0 duration 1
@@ -15,7 +15,7 @@ wait duration 1
 external_viewer action stop
 
 
-external_viewer action play filename 08-Jupiter.mp4 coordinate_system viewport scale 1 alpha 0
+external_viewer action play filename 10_Jupiter.avi coordinate_system viewport scale 1 alpha 0
 external_viewer alpha 1 duration 1
 wait duration 50
 external_viewer alpha 0 duration 1
@@ -23,7 +23,7 @@ wait duration 1
 external_viewer action stop
 
 
-external_viewer action play filename 09-Saturn.mp4 coordinate_system viewport scale 1 alpha 0
+external_viewer action play filename 11_Saturn.avi coordinate_system viewport scale 1 alpha 0
 external_viewer alpha 1 duration 1
 wait duration 50
 external_viewer alpha 0 duration 1
@@ -31,7 +31,7 @@ wait duration 1
 external_viewer action stop
 
 
-external_viewer action play filename 10-Uranus.mp4 coordinate_system viewport scale 1 alpha 0
+external_viewer action play filename 12_Uranus.avi coordinate_system viewport scale 1 alpha 0
 external_viewer alpha 1 duration 1
 wait duration 50
 external_viewer alpha 0 duration 1
@@ -39,7 +39,7 @@ wait duration 1
 external_viewer action stop
 
 
-external_viewer action play filename 11-Neptune.mp4 coordinate_system viewport scale 1 alpha 0
+external_viewer action play filename 13_Neptune.avi coordinate_system viewport scale 1 alpha 0
 external_viewer alpha 1 duration 1
 wait duration 50
 external_viewer alpha 0 duration 1
@@ -47,7 +47,7 @@ wait duration 1
 external_viewer action stop
 
 
-external_viewer action play filename 12-Pluto.mp4 coordinate_system viewport scale 1 alpha 0
+external_viewer action play filename 14_Pluto.avi coordinate_system viewport scale 1 alpha 0
 external_viewer alpha 1 duration 1
 wait duration 50
 external_viewer alpha 0 duration 1
@@ -55,7 +55,7 @@ wait duration 1
 external_viewer action stop
 
 
-external_viewer action play filename 13-Conclusion.mp4 coordinate_system viewport scale 1 alpha 0
+external_viewer action play filename 15_Conclusion.avi coordinate_system viewport scale 1 alpha 0
 external_viewer alpha 1 duration 1
 wait duration 83
 external_viewer alpha 0 duration 1
