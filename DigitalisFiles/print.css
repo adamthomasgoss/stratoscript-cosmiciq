@@ -1,0 +1,139 @@
+/* This file is NOT used in the Universal Console Augmented Lesson tab 
+   but is simply provided for ease of printing.
+*/
+
+body {
+    font-size: 11pt;
+}
+
+.narration {
+    margin-right: 40%;
+}
+
+.action {
+    margin-left: 60%;
+    padding: 5px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.effect {
+    padding: 10px;
+    margin: 10px 0;
+    border-width: 4px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+}
+
+span.question {
+    font-weight: bold;
+    font-style: italic;
+}
+
+img.titlepage {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.logo {
+    width: 150px;
+}
+
+img {
+    max-height: 500px;
+    width: auto;
+    max-width: 100%;
+}
+
+img.fullscreen{
+    width: 100%;
+    max-height: none; 
+}
+
+td {
+    font-size: 11pt;
+}
+
+
+table.credits {
+    border: 1px solid;
+    width: 100%;
+    cellpadding: 5;
+    border-collapse: collapse;
+}
+
+.credits td, th {
+    border: solid 1px;
+}
+
+.optional-section {
+    padding: 10px;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: gray;
+    border-style: dashed;
+}
+
+@media print {
+
+  a, a:link, a:visited { 
+      color: #000;
+      text-decoration: underline; 
+  }
+  
+  div.toc a, a:link, a:visited { 
+      text-decoration: none;
+  } 
+
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+  }
+
+  /* Lessons subsections */
+  h3 {
+    page-break-before: always;
+  }
+
+  /* Other subsections */
+  div.ancillary h3 {
+    page-break-before: auto;
+  }
+  div.materials h3 {
+    page-break-before: auto;
+  }
+  div.license h3 {
+    page-break-before: auto;
+  }
+
+  .effect, .narration, .action {
+    page-break-inside: avoid;
+  }
+
+  /* avoid breaks inside lesson optional tables */
+  table.optional {
+    page-break-inside: avoid;
+  }
+
+  hr { 
+      visibility: hidden; 
+      page-break-before: always; 
+  }
+
+  hr:last-of-type, hr.nobreak {
+      visibility: visible; 
+      page-break-before: auto; 
+    display: block;
+    height: 1px;
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-top: solid 1px #000;
+  }
+
+}
