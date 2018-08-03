@@ -2,6 +2,8 @@
 # Stratoscript file for Musical IQ                         #
 # Author: Arthur Bogard                                    #
 # Copyright 2016 : Arthur Bogard                           #
+#                                                          #
+# Author Updating 2018: Adam Goss                          #
 ############################################################
 
 external_viewer action play filename 12-Pluto.mp4 coordinate_system viewport scale 1 alpha 0
