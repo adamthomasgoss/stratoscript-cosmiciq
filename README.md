@@ -2,6 +2,9 @@
 ## Musical IQ
 
 
-This folder contains a customized lesson interface for Musical IQ.
+This folder contains the following:
 
-See `index.html` for license information
+- `DigitalisFiles` - A customized lesson interface for Musical IQ
+- `Documentation` - Documentation for creating and modifying stratoscript files
+
+See `DigitalisFiles/index.html` for license information
